@@ -3,7 +3,17 @@ entries:
   tenants:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.42011-03:00"
+    created: "2024-08-30T23:17:00.521206-03:00"
+    description: A Helm chart for Kubernetes
+    digest: cd3725cf5007e350f62e049bd137583d0b57010c6e93e7411e0f068ea78506ae
+    name: tenants
+    type: application
+    urls:
+    - tenants-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-30T23:17:00.520677-03:00"
     description: A Helm chart for Kubernetes
     digest: cbe3910a1dad602b5d28ecfa036735edb331e0b887e4dabaf4c70378d59e811c
     name: tenants
@@ -13,7 +23,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.419842-03:00"
+    created: "2024-08-30T23:17:00.520295-03:00"
     description: A Helm chart for Kubernetes
     digest: 875d0b9a351b40df56d12ccfd0c2d578b44179aed3c8db8374ff9710ccba7de3
     name: tenants
@@ -23,7 +33,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.419583-03:00"
+    created: "2024-08-30T23:17:00.519859-03:00"
     description: A Helm chart for Kubernetes
     digest: 7a32cc89c5cff7f8f7673c3d2b8966efc9ac400a624e2ad82dc961c0daa39964
     name: tenants
@@ -33,7 +43,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.419302-03:00"
+    created: "2024-08-30T23:17:00.519243-03:00"
     description: A Helm chart for Kubernetes
     digest: 2da438427823df9482c20b6735ffdf966f491a1769b82818f647e29069aa2a6d
     name: tenants
@@ -43,7 +53,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.419028-03:00"
+    created: "2024-08-30T23:17:00.518525-03:00"
     description: A Helm chart for Kubernetes
     digest: 50578046660f4a03303eb08440f6d9a44348d684619d7b3a794cfbf4af19800b
     name: tenants
@@ -53,7 +63,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-30T21:12:04.420762-03:00"
+    created: "2024-08-30T23:17:00.521758-03:00"
     description: A Helm chart for Kubernetes
     digest: 50578046660f4a03303eb08440f6d9a44348d684619d7b3a794cfbf4af19800b
     name: tenants
@@ -61,4 +71,4 @@ entries:
     urls:
     - charts/tenants-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-30T21:12:04.418535-03:00"
+generated: "2024-08-30T23:17:00.515804-03:00"
