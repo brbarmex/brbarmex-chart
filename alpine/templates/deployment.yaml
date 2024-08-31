@@ -1,25 +1,26 @@
-{{- range .Values.apps}}
+{{- range $name, $app := .Values.apps }}
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .name }}-deployment
+  name: {{ $app.name }}-deployment
   labels:
-    app: {{ .name }}
+    app: {{ $app.name }}
 spec:
-  replicas: {{ .replicaCount }}
+  replicas: 1
   selector:
     matchLabels:
-      app: {{ .name }}  
+      app: {{ $app.name }}
   template:
     metadata:
       labels:
-        app: {{ .name }}
+        app: {{ $app.name }}
     spec:
       containers:
-        - name: {{ .name }}-container
-          image: {{ .dockerImage }}
+        - name: {{ $app.name }}-container
+          image: {{ $app.dockerImage }}
           ports:
             - name: http
-              containerPort: {{ .service.port }}
+              containerPort: 80
               protocol: TCP
-{{- end }}              
+{{- end }}

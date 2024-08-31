@@ -1,32 +1,13 @@
 apps:
-  - name: "tenant-sync"
-    replicaCount: 1
-    dockerImage: "hello-world"
-
-    service:
-      type: ClusterIP
-      port: 80
-
-  - name: "tenant-bkp"
-    replicaCount: 1
-    dockerImage: "hello-world"
-
-    service:
-      type: ClusterIP
-      port: 80
-
-  - name: "tenant-health"
-    replicaCount: 1
-    dockerImage: "hello-world"
-
-    service:
-      type: ClusterIP
-      port: 80
-
-  - name: "tenant-hello"
-    replicaCount: 1
-    dockerImage: "hello-world"
-
-    service:
-      type: ClusterIP
-      port: 80               
+  payment-app:
+    name: "payment-app"
+    dockerImage: "nginx:latest"
+  basket-app:
+    name: "basket-app"
+    dockerImage: "nginx:latest"
+  checkout-app:
+    name: "checkout-app"
+    dockerImage: "nginx:latest"
+  catalog-app:
+    name: "catalog-app"
+    dockerImage: "nginx:latest"
