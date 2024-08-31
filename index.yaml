@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  tenants:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-31T19:00:12.29488-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1c9e1a2897eb0732ac164fa3bb5a118da2b0e671e00acccc5b5fff47f0b19030
+    name: tenants
+    type: application
+    urls:
+    - tenants-v2.0.0.tgz
+    version: v2.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-31T19:00:12.294329-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 667e23dd78ee7336213c1877ba1cf0e7fafee8c2fa3c1b53b6b45a0643b1f633
+    name: tenants
+    type: application
+    urls:
+    - tenants-v1.0.0.tgz
+    version: v1.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-31T19:00:12.293742-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 0eb1bfe364c3ea8af85b56306a3c56352ce172492715444ba251cc1d28fdcd01
+    name: tenants
+    type: application
+    urls:
+    - tenants-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-31T19:00:12.295837-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 50578046660f4a03303eb08440f6d9a44348d684619d7b3a794cfbf4af19800b
+    name: tenants
+    type: application
+    urls:
+    - charts/tenants-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-31T19:00:12.290937-03:00"
